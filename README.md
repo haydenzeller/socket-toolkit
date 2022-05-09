@@ -3,9 +3,6 @@
 A growing list of pentesting tools!
 
 ## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
 git clone https://github.com/haydenzeller/socket-toolkit.git
 cd socket-toolkit
