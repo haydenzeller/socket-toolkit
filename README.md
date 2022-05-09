@@ -1,6 +1,6 @@
 # SOCKET-TOOLKIT
 
-A growing list of pentesting tools for!
+A growing list of pentesting tools!
 
 ## Installation
 
