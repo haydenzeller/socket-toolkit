@@ -1,7 +1,7 @@
 # SOCKET-TOOLKIT
 
 A growing list of pentesting tools!
-![Screenshot](https://github.com/haydenzeller/socket-toolkit/blob/main/modules/Screenshot.png)
+![Screenshot](https://github.com/haydenzeller/socket-toolkit/blob/main/modules/screenshot.png)
 ## Installation
 ```bash
 git clone https://github.com/haydenzeller/socket-toolkit.git
