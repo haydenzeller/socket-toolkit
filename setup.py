@@ -36,5 +36,5 @@ os.system('sudo rm -R kali-anonsurf')
 os.system('pip3 install requests')
 os.system('pip3 install paramiko colorama')
 
-input(bcolors.OKGREEN + '''Done! Please run stk.py or open a new shell and type stk to start the program!
-Press enter to exit.''' + bcolors.ENDC)
+input(bcolors.OKGREEN + '''Done! Please run stk.py as ROOT.
+Press enter to exit...''' + bcolors.ENDC)

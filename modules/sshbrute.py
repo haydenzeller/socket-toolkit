@@ -54,4 +54,3 @@ if __name__ == "__main__":
             # if combo is valid, save it to a file
             open("credentials.txt", "w").write(f"{user}@{host}:{password}")
             break
-     

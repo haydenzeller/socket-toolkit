@@ -26,4 +26,4 @@ def scan():
         os.system('sudo nmap -Pn --script vuln -p ' + port + ' ' + ip)
         input(bcolors.OKGREEN + 'Press enter to return to the main menu.' + bcolors.ENDC)
     else:
-        input(bcolors.FAIL + 'Invalid input. Press enter to return to main menu.' + bcolors.ENDC)
+        input(bcolors.FAIL + 'Invalid input. Press enter to return to main menu...' + bcolors.ENDC)

@@ -1,7 +1,7 @@
 #IMPORTS
 from ast import excepthandler
 import sys
-import os 
+import os
 import time
 import socket
 import modules.ipcheck
@@ -73,19 +73,19 @@ def main():
         os.system('clear')
         print(bcolors.OKGREEN + 'Checking ip address...' + bcolors.ENDC)
         modules.ipcheck.ipcheck()
-        input(bcolors.WARNING + 'Press enter to return to the main menu.' + bcolors.ENDC)
+        input(bcolors.WARNING + 'Press enter to return to the main menu...' + bcolors.ENDC)
         os.system('clear')
         main()
     if mainselection == '2':
         os.system('clear')
         os.system('sudo anonsurf start')
-        input(bcolors.WARNING + 'Press enter to return to the main menu.' + bcolors.ENDC)
+        input(bcolors.WARNING + 'Press enter to return to the main menu...' + bcolors.ENDC)
         os.system('clear')
         main()
     if mainselection == '3':
         os.system('clear')
         os.system('sudo anonsurf stop')
-        input(bcolors.WARNING + 'Press enter to return to the main menu.' + bcolors.ENDC)
+        input(bcolors.WARNING + 'Press enter to return to the main menu...' + bcolors.ENDC)
         os.system('clear')
         main()
     if mainselection == '4':
@@ -112,12 +112,12 @@ def main():
             input(bcolors.OKCYAN + 'Press enter to start...' + bcolors.ENDC)
         try:
             os.system('sudo python3 modules/sshbrute.py -u ' + username + ' -P ' + password + ' ' + ip)
-            input(bcolors.WARNING + 'Press enter to return to the main menu.' + bcolors.ENDC)
+            input(bcolors.WARNING + 'Press enter to return to the main menu...' + bcolors.ENDC)
             os.system('clear')
             main()
         except:
             print(bcolors.FAIL + 'An error occured.' + bcolors.ENDC)
-            input(bcolors.WARNING + 'Press enter to return to the main menu.' + bcolors.ENDC)
+            input(bcolors.WARNING + 'Press enter to return to the main menu...' + bcolors.ENDC)
             main()
 
 main()
