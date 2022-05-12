@@ -20,6 +20,12 @@ class bcolors:
     UNDERLINE = '\033[4m'
     OKCYAN = '\033[96m'
 #CLASSES
+#ROOT CHECK
+root = os.getuid()
+if root == 0:
+    pass
+else:
+    print(bcolors.ERROR + 'You must run this script as ROOT' + bcolors.ENDC)
 
 #Title and disclaimer
 print(bcolors.OKGREEN + '''
