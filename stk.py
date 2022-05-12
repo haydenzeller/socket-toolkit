@@ -25,8 +25,8 @@ root = os.getuid()
 if root == 0:
     pass
 else:
-    print(bcolors.ERROR + 'You must run this script as ROOT' + bcolors.ENDC)
-
+    print(bcolors.FAIL + 'You must run this script as ROOT' + bcolors.ENDC)
+    sys.exit()
 #Title and disclaimer
 print(bcolors.OKGREEN + '''
    _____            _        _     _______          _ _    _ _   
